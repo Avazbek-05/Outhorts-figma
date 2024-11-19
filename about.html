@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pegs-2</title>
+
+    <link rel="stylesheet" href="./css/output.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./svg/logosvg.svg">
+  </head>
+  <body>
+    <header class="header">
+      <div
+        class="container1 flex items-center text-center justify-between py-[19px]"
+      >
+        <nav class="flex items-center gap-[55px]">
+          <a href="index.html">
+            <img class="w-[129px] h-[47px]" src="./svg/logo.svg" alt="logo"
+          /></a>
+          <input class="hidden" type="checkbox" id="check" />
+          <ul
+            class="nav-ul flex items-center gap-[55px] text-[18px] font-[400] text-[#575756] max-[1163px]:gap-[30px]"
+          >
+            <li><a href="#">Аналитика</a></li>
+            <li><a href="#">Сообщество</a></li>
+            <li><a href="#">Для организаций</a></li>
+            <label class="hidden max-[1000px]:block" for="check">
+              <i class="fa-solid fa-xmark"></i>
+            </label>
+          </ul>
+          <div class="flex items-center gap-2 max-[1295px]:hidden">
+            <img src="./svg/nav-icon.svg" alt="nav-icon" />
+            <a class="text-[16px] font-[400] text-[#575756]" href="#">RU</a>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </nav>
+        <div class="flex items-center gap-[49px] max-[590px]:gap-7">
+         <a href="./index.html">
+          <button
+          class="flex items-center text-center justify-center border border-spacing-2 w-[195px] h-[36px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500] max-[400px]:w-[150px] max-[340px]:w-[100px]"
+        >
+          <span class="max-[340px]:hidden">Создать</span>
+          <span class="hidden max-[340px]:block">+</span> заявку
+        </button>
+         </a>
+          <img class="max-[524px]:hidden" src="./svg/sms.svg" alt="s" />
+          <img class="max-[524px]:hidden" src="./svg/budilnic.svg" alt="d" />
+          <img class="max-[11105px]:hidden" src="./svg/man icon.svg" alt="m" />
+          <label class="hidden max-[1000px]:block text-[25px]" for="check">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </label>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <section class="mt-[80px] mb-[40px] bg-[#f9fbff]">
+      <div class="container1">
+        <h1
+          class="text-[50px] font-[700] text-[#4d4d4d] mb-[59px] max-[677px]:text-center max-[400px]:text-[40px]"
+        >
+          Создание заявки
+        </h1>
+
+        <div class=" ">
+          <div class="flex items-center justify-between">
+            <div
+              class="flex items-center text-[20px] font-[500] text-[#99afd3] max-[677px]:flex-col max-[677px]:m-auto max-[677px]:gap-4"
+            >
+              <h3
+                class="py-[14px] px-[100px] bg-[#f9fbff] rounded-[12px_12px_0_0] max-[360px]:px-[50px]"
+              >
+                Я заказчик
+              </h3>
+              <h3
+                class="py-[14px] px-[100px] bg-[#e7f0ff] rounded-[13px_10px_0_0] max-[360px]:px-[50px]"
+              >
+                Я исполнитель
+              </h3>
+            </div>
+            <p
+              class="text-[16px] font-[400] text-[#2f2f2f] max-[1180px]:hidden"
+            >
+              Для публикации заявки вам необходимо
+              <span class="text-[#3a85f4]">зарегистрироваться.</span>
+            </p>
+          </div>
+          <div
+            class="bg-[#f9fbff] pt-[120px] px-6 pb-[70px] flex items-center gap-[61px] justify-between"
+          >
+            <div class="w-full">
+              <div
+                class="flex items-center gap-[15px] pb-[20px] pl-[10px] max-[500px]:m-auto"
+              >
+                <img src="./svg/right-icon-1.svg" alt="icon" />
+                <h3 class="text-[#3a85f4] text-[22px] font-[600]">Я хочу</h3>
+              </div>
+              <div
+                class="forr flex justify-between items-end rounded-[12px] pt-[30px] pb-[17px] pl-[40px] pr-[17px] max-[400px]:pl-[17px]"
+              >
+                <div
+                  class="flex gap-[30px] items-center max-[1000px]:w-full max-[912px]:flex-col max-[912px]:gap-[30px]"
+                >
+                  <!-- 1 -->
+                  <div
+                    class="flex flex-col gap-[15px] max-[912px]:bg-[#f9fbff] max-[912px]:p-[30px] max-[912px]:rounded-[12px]"
+                  >
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Повысить цитируемость своих работ
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Стать соавтором
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Заказать исследования
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Заказать работу с текстом и графикой
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Найти эксперта
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Повысить цитируемость своих работ
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Стать соавтором
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Заказать исследования
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Заказать работу с текстом и графикой
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Найти эксперта
+                      </p>
+                    </div>
+                  </div>
+                  <!-- 2 -->
+                  <div
+                    class="flex flex-col gap-[15px] max-[912px]:bg-[#f9fbff] max-[912px]:p-[30px] max-[912px]:rounded-[12px]"
+                  >
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Повысить цитируемость своих работ
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Стать соавтором
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Заказать исследования
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Заказать работу с текстом и графикой
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Найти эксперта
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Повысить цитируемость своих работ
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Стать соавтором
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Заказать исследования
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Заказать работу с текстом и графикой
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Найти эксперта
+                      </p>
+                    </div>
+                  </div>
+                  <!-- 3 -->
+                  <div
+                    class="flex flex-col gap-[15px] max-[912px]:bg-[#f9fbff] max-[912px]:p-[30px] max-[912px]:rounded-[12px]"
+                  >
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Повысить цитируемость своих работ
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Стать соавтором
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Заказать исследования
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Заказать работу с текстом и графикой
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Найти эксперта
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Повысить цитируемость своих работ
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Стать соавтором
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Заказать исследования
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Заказать работу с текстом и графикой
+                      </p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                      <input type="radio" name="xoch" />
+                      <p
+                        class="text-[#656565] text-[18px] font-[400] max-[423px]:text-[14px]"
+                      >
+                        Найти эксперта
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="max-[1000px]:hidden">
+                  <img src="./svg/logo--icon-1.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="px-6 bg-[#f9fbff] flex flex-col gap-3">
+            <div class="flex items-center gap-2">
+              <img src="./svg/message.svg" alt="" />
+              <h3>Описание работы</h3>
+            </div>
+            <label for="addrres">
+              <textarea
+                placeholder="Введите описание"
+                class="p-[30px] rounded-[12px] w-full"
+                name="addrres"
+                id="addrres"
+                rows="10"
+              ></textarea>
+            </label>
+          </div>
+          <div
+            class="px-6 mt-[70px] flex justify-between gap-[10px] max-[1260px]:flex-col max-[1260px]:gap-[20px]"
+          >
+            <!-- 1 -->
+            <div class="">
+              <div class="flex items-center gap-3 max-[500px]:justify-center">
+                <img
+                  class="w-[18px] h-[18px]"
+                  src="./svg/community-icon.svg"
+                  alt="s"
+                />
+                <h3 class="text-[#3a85f4] text-[18px] font-[500]">
+                  Ключевые слова
+                </h3>
+              </div>
+              <div
+                class="community-item pt-[20px] pl-[20px] pr-[10px] pb-[60px] mt-[20px] flex flex-col gap-[10px] max-[560px]:flex-col max-[560px]:gap-[20px]"
+              >
+                <div
+                  class="flex gap-[2px] items-center max-[1260px]:justify-center max-[560px]:flex-col max-[560px]:gap-[10px]"
+                >
+                  <button
+                    class="border border-solid border-[#b0bfdb] rounded-[75px] px-[13px] py-[6px] text-[14px] text-[#2f2f2f] font-[400]"
+                  >
+                    первый очень
+                    <span class="max-[400px]:hidden">сильно длинный </span>
+                    <span w-[9px] h-[9px] text-[#A8B9D7] t>X</span>
+                  </button>
+                  <button
+                    class="border border-solid border-[#b0bfdb] rounded-[75px] px-[13px] py-[6px] text-[14px] text-[#2f2f2f] font-[400]"
+                  >
+                    второй ключ
+                    <span text-[#A8B9D7]>X</span>
+                  </button>
+                </div>
+                <div
+                  class="flex items-center gap-[4px] max-[1260px]:justify-center max-[560px]:flex-col max-[560px]:gap-[10px]"
+                >
+                  <button
+                    class="border border-solid border-[#b0bfdb] rounded-[75px] px-[13px] py-[6px] text-[14px] text-[#2f2f2f] font-[400]"
+                  >
+                    третий ключ
+                    <span w-[9px] h-[9px] text-[#A8B9D7]>X</span>
+                  </button>
+                  <button
+                    class="border border-solid border-[#b0bfdb] rounded-[75px] px-[13px] py-[6px] text-[14px] text-[#2f2f2f] font-[400]"
+                  >
+                    четвертый ключ
+                    <span w-[9px] h-[9px] text-[#A8B9D7]>X</span>
+                  </button>
+                  <button
+                    class="border border-solid border-[#b0bfdb] rounded-[75px] px-[13px] py-[6px] text-[14px] text-[#2f2f2f] font-[400]"
+                  >
+                    пятый ключ
+                    <span w-[9px] h-[9px] text-[#A8B9D7]>X</span>
+                  </button>
+                </div>
+                <button
+                  class="border border-solid border-[#b0bfdb] rounded-[75px] px-[13px] py-[6px] text-[14px] text-[#2f2f2f] font-[400]"
+                >
+                  шестой ключ
+                  <span w-[9px] h-[9px] text-[#A8B9D7]>X</span>
+                </button>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="">
+              <div class="flex items-center gap-3 max-[1260px]:justify-center">
+                <img class="w-[18px] h-[18px]" src="./svg/radus.svg" alt="s" />
+                <h3 class="text-[#3a85f4] text-[18px] font-[500]">
+                  Область знаний
+                </h3>
+              </div>
+
+              <div
+                class="community-item flex gap-[10px] py-[20px] px-[30px] mt-[20px] max-[695px]:flex-col max-[695px]:px-[10px] max-[1260px]:justify-center max-[659px]:text-center"
+              >
+                <div class="flex flex-col gap-[20px]">
+                  <label class="flex items-center gap-3" for="biol">
+                    <input id="biol" type="checkbox" />
+                    <p
+                      class="text-[18px] font-[400] text-[#656565] max-[305px]:text-[16px]"
+                    >
+                      Biology/Genetics
+                    </p>
+                  </label>
+                  <label class="flex items-center gap-2" for="ne">
+                    <input id="ne" type="checkbox" />
+                    <p
+                      class="text-[18px] font-[400] text-[#656565] max-[305px]:text-[16px]"
+                    >
+                      Neuro/Psycho
+                    </p>
+                  </label>
+                  <label class="flex items-center gap-2" for="med">
+                    <input id="med" type="checkbox" />
+                    <p
+                      class="text-[18px] font-[400] text-[#656565] max-[305px]:text-[16px]"
+                    >
+                      Medicine/Pharma
+                    </p>
+                  </label>
+                  <label class="flex items-center gap-2" for="chem">
+                    <input id="chem" type="checkbox" />
+                    <p
+                      class="text-[18px] font-[400] text-[#656565] max-[305px]:text-[16px]"
+                    >
+                      Chemistry
+                    </p>
+                  </label>
+                </div>
+
+                <div class="flex flex-col gap-[20px]">
+                  <label class="flex items-center gap-2" for="bio">
+                    <input id="bio" type="checkbox" />
+                    <p
+                      class="text-[18px] font-[400] text-[#656565] max-[305px]:text-[16px]"
+                    >
+                      Math/Computer
+                    </p>
+                  </label>
+                  <label class="flex items-center gap-2" for="n">
+                    <input id="n" type="checkbox" />
+                    <p
+                      class="text-[18px] font-[400] text-[#656565] max-[305px]:text-[16px]"
+                    >
+                      Physics/Astronomy
+                    </p>
+                  </label>
+                  <label class="flex items-center gap-2" for="me">
+                    <input id="me" type="checkbox" />
+                    <p
+                      class="text-[18px] font-[400] text-[#656565] max-[305px]:text-[16px]"
+                    >
+                      Engineering/Material
+                    </p>
+                  </label>
+                  <label class="flex items-center gap-2" for="che">
+                    <input id="che" type="checkbox" />
+                    <p
+                      class="text-[18px] font-[400] text-[#656565] max-[305px]:text-[16px]"
+                    >
+                      Engineering/Material
+                    </p>
+                  </label>
+                </div>
+                <div class="flex flex-col gap-[20px]">
+                  <label class="flex items-center gap-2" for="bi">
+                    <input id="bi" type="checkbox" />
+                    <p
+                      class="text-[18px] font-[400] text-[#656565] max-[305px]:text-[16px]"
+                    >
+                      Social
+                    </p>
+                  </label>
+
+                  <label class="flex items-center gap-2" for="m">
+                    <input id="m" type="checkbox" />
+                    <p
+                      class="text-[18px] font-[400] text-[#656565] max-[305px]:text-[16px]"
+                    >
+                      Humanities/Arts
+                    </p>
+                  </label>
+                  <label class="flex items-center gap-2" for="ch">
+                    <input id="ch" type="checkbox" />
+                    <p
+                      class="text-[18px] font-[400] text-[#656565] max-[305px]:text-[16px]"
+                    >
+                      Management/Economics
+                    </p>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="max-[1260px]:m-auto">
+              <h3
+                class="text-[#3a85f4] text-[18px] font-[500] max-[1260px]:text-center"
+              >
+                Область знаний
+              </h3>
+              <input
+                type="date"
+                class="community-item px-[30px] mt-[20px] py-[12px] max-[1260px]: m-auto"
+              />
+            </div>
+          </div>
+
+          <div class="mt-[50px] text-center ">
+            <div
+              class="flex items-center m-auto justify-center gap-[40px] text-[16px] font-[700] max-[655px]:flex-col"
+            >
+              <button
+                class="py-[10px] px-[39px] border border-solid border-[#3a85f4] rounded-[123px] text-[#3a85f4;]"
+              >
+                + добавить заявку
+              </button>
+              <button
+                class="py-[10px] px-[40px] bg-[#3a85f4] rounded-[123px] text-[#fff] max-[381px]:text-[14px]"
+              >
+                Зарегистрироваться и Опубликовать
+              </button>
+            </div>
+            <p
+              class="max-w-[465px] m-auto mt-[20px] text-[16px] font-[400] text-[#b8b8b8]"
+            >
+              Вам не придется заново заполнять форму, после регистрации ваша
+              заявка будет отправлена на публикацию.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-[#262628] pt-[43px] pb-[23px] mb-[30px]">
+      <div class="container1 flex justify-between max-[1148px]:flex-col  max-[1148px]:gap-5 max-[1010px]:items-center" >
+        <div class="flex gap-[67px] max-[650px]:grid max-[650px]:grid-cols-2 max-[650px]:text-center">
+          <div class="max-[1010px]:hidden">
+            <h2>
+              <a class="text-[#fff] text-[16px] font-[400]" href="#">
+                Authortie
+              </a>
+            </h2>
+            <a href="#" class="text-[#888]"
+              ><i class="fa-regular fa-copyright"></i>Все права защищены</a
+            >
+          </div>
+
+          <h2>
+            <a class="text-[#fff] text-[16px] font-[400]" href="#"
+              >Политика конфиденциальности</a
+            >
+          </h2>
+          <h2>
+            <a class="text-[#fff] text-[16px] font-[400]" href="#">Аналитика</a>
+          </h2>
+          <h2>
+            <a class="text-[#fff] text-[16px] font-[400]" href="#"
+              >Сообщество</a
+            >
+          </h2>
+          <h2>
+            <a class="text-[#fff] text-[16px] font-[400]" href="#"
+              >организаций</a
+            >
+          </h2>
+        </div>
+        <div class="hidden max-[1010px]:block max-[1010px]:text-center">
+          <h2>
+            <a class="text-[#fff] text-[16px] font-[400]" href="#">
+              Authortie
+            </a>
+          </h2>
+          <a href="#" class="text-[#888]"
+            ><i class="fa-regular fa-copyright"></i>Все права защищены</a
+          >
+        </div>
+        <div class="flex items-center gap-[28px]">
+          <a href="#">
+            <img class="w-[24px]" src="./svg/fecobook.svg" alt="f"
+          /></a>
+          <a href="#"> <img src="./svg/insta.svg" alt="i" /></a>
+          <a href="#"><img src="./svg/telegram.svg" alt="t" /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

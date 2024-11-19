@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OUTHORTS</title>
+    <link rel="icon" href="./svg/logosvg.svg" />
+    <link rel="stylesheet" href="./css/output.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container1">
+        <div class="flex text-center items-center justify-between py-[19px]">
+          <div class="flex items-center gap-[55px]">
+            <img class="w-136px h-[53px]"  src="./svg/logo.svg" alt="logo" />
+            <nav>
+              <input class="hidden" type="checkbox" id="check" />
+              <ul
+                class="nav-ul flex items-center gap-[55px] text-[#575756] font-[400] text-[18px]"
+              >
+                <li><a href="#">Аналитика</a></li>
+                <li><a href="./link">Сообщество</a></li>
+                <li><a href="#">Для организаций</a></li>
+                <label class="hidden max-[1000px]:block" for="check">
+                  <i class="fa-solid fa-xmark"></i>
+                </label>
+              </ul>
+            </nav>
+          </div>
+          <div class="flex items-center gap-[27px]">
+           <a href="./about.html">
+            <button
+            class="flex items-center text-center justify-center border border-spacing-2 w-[195px] h-[36px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500] max-[400px]:w-[150px] max-[340px]:w-[100px]"
+          >
+            <span class="max-[340px]:hidden">Создать</span>
+            <span class="hidden max-[340px]:block">+</span> заявку
+          </button>
+           </a>
+            <img
+              class="max-[460px]:hidden"
+              src="./svg/nav-icon.svg"
+              alt="nav-icon"
+            />
+            <img
+              class="max-[460px]:hidden"
+              src="./svg/LoginRounded.svg"
+              alt="LoginRounded"
+            />
+            <label class="hidden max-[1000px]:block text-[25px]" for="check">
+              <i class="fa-solid fa-bars-staggered"></i>
+            </label>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <section class="wrapper">
+      <div
+        class="container1 flex items-center justify-between max-[881px]:flex max-[881px]:flex-col"
+      >
+        <div
+          class="pt-[85px] pb-[65px] flex flex-col gap-6 px-[20px] max-[881px]:text-left"
+        >
+          <h1
+            class="text-[40px] font-[700] text-[#2f2f2f] max-w-[461px] max-[466px]:text-[25px] max-[360px]:text-center"
+          >
+            Сообщество взаимопомощи между учёными со всего мира
+          </h1>
+          <p
+            class="text-[16px] font-[400] text-[#2f2f2f] max-w-[483px] max-[360px]:text-center"
+          >
+            Удобный сервис, который подберёт для вас коллег и поможет наладить с
+            ними взаимовыгодное сотрудничество в областях совместных
+            исследований, соавторства, рецензирования и повышения индекса
+            цитирования.
+          </p>
+          <button
+            class="p-[12px 33px] border border-spacing-2 w-[195px] h-[36px] border-[#3a85f4] rounded-[20px] text-[#fff] text-[14px] font-[500] bg-[#3a85f4] max-[360px]:m-auto"
+          >
+            Присоединиться
+          </button>
+        </div>
+
+        <img
+          class="w-[50%] h-[310px] max-[881px]:w-full"
+          src="./img/showcase-img.png"
+          alt=""
+        />
+      </div>
+    </section>
+    <!-- wrapper end -->
+
+    <section class="works my-[125px]">
+      <div class="container1">
+        <h2
+          class="text-center text-[36px] font-[700] text-[#383838] mb-[52px] max-[314px]:text-[25px]"
+        >
+          Как это работает
+        </h2>
+        <div
+          class="flex items-center justify-between max-[880px]:grid max-[880px]:grid-cols-2 max-[880px]:gap-8 max-[410px]:grid-cols-1 max-[880px]:w-full max-[880px]:px-[30px]"
+        >
+          <div class="flex-col justify-center items-center">
+            <div class="works-img">
+              <img class="w-[117px] h-[109px]" src="./img/card-1.png" alt="" />
+            </div>
+            <p
+              class="max-w-[200px] pt-3 px-[10px] text-center text-[14px] font-[400] text-[#2f2f2f]"
+            >
+              Оцените привлекательность темы
+            </p>
+          </div>
+          <img class="max-[930px]:hidden" src="./svg/right.svg" alt="" />
+          <div class="flex-col justify-center items-center">
+            <div class="works-img">
+              <img class="w-[117px] h-[109px]" src="./img/card-2.png" alt="" />
+            </div>
+            <p
+              class="max-w-[200px] pt-3 px-[10px] text-center text-[14px] font-[400] text-[#2f2f2f]"
+            >
+              Выполните совместные исследования
+            </p>
+          </div>
+          <img class="max-[930px]:hidden" src="./svg/right.svg" alt="" />
+
+          <div class="flex-col justify-center items-center">
+            <div class="works-img">
+              <img class="w-[117px] h-[109px]" src="./img/card-3.png" alt="" />
+            </div>
+            <p
+              class="max-w-[200px] pt-3 px-[9px] text-center text-[14px] font-[400] text-[#2f2f2f]"
+            >
+              Улучшите написанную работу
+            </p>
+          </div>
+          <img class="max-[930px]:hidden" src="./svg/right.svg" alt="" />
+          <div class="flex-col justify-center items-center">
+            <div class="works-img">
+              <img class="w-[117px] h-[109px]" src="./img/card-4.png" alt="" />
+            </div>
+            <p
+              class="max-w-[200px] pt-3 px-4 text-center text-[14px] font-[400] text-[#2f2f2f]"
+            >
+              Продвиньте свою работу темы
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- works end -->
+
+    <section class="community mb-[97px]">
+      <div class="container1">
+        <div
+          class="grid grid-cols-3 gap-[47px] max-[1230px]:grid-cols-2 max-[860px]:grid-cols-1"
+        >
+          <!-- 1 -->
+          <div
+            class="community-item px-[12px] pb-[25px] rounded-[10px] pt-[14px] max-[330px]:text-center"
+          >
+            <div
+              class="flex gap-[20px] items-center font-bold text-[11px] max-[330px]:flex-col"
+            >
+              <h2
+                class="text-[#bc9300] bg-[#fdffe7] px-[15px] py-2 rounded-[75px]"
+              >
+                Цитировать других
+              </h2>
+              <h2
+                class="text-[#00a880] bg-[#ebfffa] px-[30px] py-2 rounded-[75px]"
+              >
+                Neuro/Psycho
+              </h2>
+            </div>
+            <h1 class="pt-[27px] text-[16px] font-[600] text-[#2f2f2f]">
+              Вопросы проектирования трансатлантического межнационального
+              продуктопровода в условиях нарастающей коронавирусной пандемии
+            </h1>
+            <h3 class="pt-[27px] text-[15px] font-[500] text-[#505050]">
+              Комментарий
+            </h3>
+            <p class="pt-[10px] text-[14px] font-[400] text-[#2f2f2f]">
+              Могу ещё помочь со статистической обработкой
+            </p>
+            <h3 class="pt-[27px] text-[15px] font-[500] text-[#505050]">
+              Вознаграждение
+            </h3>
+            <div
+              class="flex items-center justify-between gap-1 mt-[10px] max-[430px]:hidden"
+            >
+              <button
+                class="border border-spacing-2 py-[6px] px-[9px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500]"
+              >
+                Процитировать других
+              </button>
+              <button
+                class="border border-spacing-2 py-[6px] px-[9px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500]"
+              >
+                Процитировать других
+              </button>
+              <button
+                class="border border-spacing-2 py-[5px] px-[8px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500]"
+              >
+                +1
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-between mt-[60px] gap-[10px] max-[401px]:flex-col max-[401px]:w-full"
+            >
+              <button
+                class="px-[12px] py-[9px] bg-[#f3f3f3] rounded-[20px] flex items-center gap-2 text-[14px] font-[400] text-[#2f2f2f]"
+              >
+                <img src="./svg/community-icon.svg" alt="icon" />
+                первый длинный ключ
+              </button>
+              <button
+                class="px-[12px] py-[9px] bg-[#f3f3f3] rounded-[20px] flex items-center gap-2 text-[14px] font-[400] text-[#2f2f2f]"
+              >
+                <img src="./svg/community-icon.svg" alt="icon" />
+                второй ключ
+              </button>
+
+              <button
+                class="py-[6px] px-[8px] bg-[#f3f3f3] rounded-[20px] text-[#2f2f2f]] text-[14px] font-[400] max-[400px]:w-[150px]"
+              >
+                +1
+              </button>
+            </div>
+            <hr class="my-[20px] text-[#cadcf8]" />
+
+            <div class="flex items-center justify-between max-[360px]:w-full">
+              <div class="flex gap-2 items-center max-[360px]:flex-col">
+                <img
+                  class="w-[85px] h-[80px] rounded-full"
+                  src="./svg/Артём Белоусов.svg"
+                  alt=""
+                />
+                <div class="max-[360px]:text-center">
+                  <h2 class="text-[16px] text-[#2f2f2f] font-[700]">
+                    Артём Белоусов
+                  </h2>
+                  <p class="text-[14px] font-[400] text-[#2f2f2f]">
+                    учёный (кандидат наук)
+                  </p>
+                  <p class="text-[14px] font-[400] text-[#2f2f2f]">
+                    Санкт-Петербургский горный университет
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center gap-1 max-[1230px]:hidden">
+                <img src="./svg/ star.svg" alt="star" />
+                <h3 class="text-[20px] font-[500] text-[#3a85f4]">4,4</h3>
+              </div>
+            </div>
+            <hr class="my-[20px] text-[#cadcf8]" />
+
+            <div class="flex items-center justify-between max-[397px]:w-full">
+              <button
+                class="py-[12px] px-[30px] bg-[#3a85f4] rounded-[20px] font-[700] text-[18px] text-[#fff] max-[353px]:m-auto max-[353px]:text-[16px]"
+              >
+                Предложить <span class="max-[324px]:hidden"> сотрудничество</span>
+              </button>
+              <button
+                class="border border-solid border-[#3A85F4] px-[15px] py-[10px] rounded-full max-[397px]:hidden"
+              >
+                <i class="fa-solid fa-chevron-right text-[#3A85F4]"></i>
+              </button>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div
+            class="community-item px-[12px] pb-[25px] rounded-[10px] pt-[14px] max-[330px]:text-center"
+          >
+            <div
+              class="flex gap-[20px] items-center font-bold text-[11px] max-[330px]:flex-col"
+            >
+              <h2
+                class="text-[#bc9300] bg-[#fdffe7] px-[15px] py-2 rounded-[75px]"
+              >
+                Цитировать других
+              </h2>
+              <h2
+                class="text-[#00a880] bg-[#ebfffa] px-[30px] py-2 rounded-[75px]"
+              >
+                Neuro/Psycho
+              </h2>
+            </div>
+            <h1 class="pt-[27px] text-[16px] font-[600] text-[#2f2f2f]">
+              Вопросы проектирования трансатлантического межнационального
+              продуктопровода в условиях нарастающей коронавирусной пандемии
+            </h1>
+            <h3 class="pt-[27px] text-[15px] font-[500] text-[#505050]">
+              Комментарий
+            </h3>
+            <p class="pt-[10px] text-[14px] font-[400] text-[#2f2f2f]">
+              Могу ещё помочь со статистической обработкой
+            </p>
+            <h3 class="pt-[27px] text-[15px] font-[500] text-[#505050]">
+              Вознаграждение
+            </h3>
+            <div
+              class="flex items-center justify-between gap-1 mt-[10px] max-[430px]:hidden"
+            >
+              <button
+                class="border border-spacing-2 py-[6px] px-[9px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500]"
+              >
+                Процитировать других
+              </button>
+              <button
+                class="border border-spacing-2 py-[6px] px-[9px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500]"
+              >
+                Процитировать других
+              </button>
+              <button
+                class="border border-spacing-2 py-[5px] px-[8px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500]"
+              >
+                +1
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-between mt-[60px] gap-[10px] max-[401px]:flex-col max-[401px]:w-full"
+            >
+              <button
+                class="px-[12px] py-[9px] bg-[#f3f3f3] rounded-[20px] flex items-center gap-2 text-[14px] font-[400] text-[#2f2f2f]"
+              >
+                <img src="./svg/community-icon.svg" alt="icon" />
+                первый длинный ключ
+              </button>
+              <button
+                class="px-[12px] py-[9px] bg-[#f3f3f3] rounded-[20px] flex items-center gap-2 text-[14px] font-[400] text-[#2f2f2f]"
+              >
+                <img src="./svg/community-icon.svg" alt="icon" />
+                второй ключ
+              </button>
+
+              <button
+                class="py-[6px] px-[8px] bg-[#f3f3f3] rounded-[20px] text-[#2f2f2f]] text-[14px] font-[400] max-[400px]:w-[150px]"
+              >
+                +1
+              </button>
+            </div>
+            <hr class="my-[20px] text-[#cadcf8]" />
+
+            <div class="flex items-center justify-between max-[360px]:w-full">
+              <div class="flex gap-2 items-center max-[360px]:flex-col">
+                <img
+                  class="w-[85px] h-[80px] rounded-full"
+                  src="./svg/Артём Белоусов.svg"
+                  alt=""
+                />
+                <div class="max-[360px]:text-center">
+                  <h2 class="text-[16px] text-[#2f2f2f] font-[700]">
+                    Артём Белоусов
+                  </h2>
+                  <p class="text-[14px] font-[400] text-[#2f2f2f]">
+                    учёный (кандидат наук)
+                  </p>
+                  <p class="text-[14px] font-[400] text-[#2f2f2f]">
+                    Санкт-Петербургский горный университет
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center gap-1 max-[1230px]:hidden">
+                <img src="./svg/ star.svg" alt="star" />
+                <h3 class="text-[20px] font-[500] text-[#3a85f4]">4,4</h3>
+              </div>
+            </div>
+            <hr class="my-[20px] text-[#cadcf8]" />
+
+            <div class="flex items-center justify-between max-[397px]:w-full">
+              <button
+                class="py-[12px] px-[30px] bg-[#3a85f4] rounded-[20px] font-[700] text-[18px] text-[#fff] max-[353px]:m-auto max-[353px]:text-[16px]"
+              >
+                Предложить <span class="max-[324px]:hidden"> сотрудничество</span>
+              </button>
+              <button
+                class="border border-solid border-[#3A85F4] px-[15px] py-[10px] rounded-full max-[397px]:hidden"
+              >
+                <i class="fa-solid fa-chevron-right text-[#3A85F4]"></i>
+              </button>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div
+            class="community-item px-[12px] pb-[25px] rounded-[10px] pt-[14px] max-[330px]:text-center"
+          >
+            <div
+              class="flex gap-[20px] items-center font-bold text-[11px] max-[330px]:flex-col"
+            >
+              <h2
+                class="text-[#bc9300] bg-[#fdffe7] px-[15px] py-2 rounded-[75px]"
+              >
+                Цитировать других
+              </h2>
+              <h2
+                class="text-[#00a880] bg-[#ebfffa] px-[30px] py-2 rounded-[75px]"
+              >
+                Neuro/Psycho
+              </h2>
+            </div>
+            <h1 class="pt-[27px] text-[16px] font-[600] text-[#2f2f2f]">
+              Вопросы проектирования трансатлантического межнационального
+              продуктопровода в условиях нарастающей коронавирусной пандемии
+            </h1>
+            <h3 class="pt-[27px] text-[15px] font-[500] text-[#505050]">
+              Комментарий
+            </h3>
+            <p class="pt-[10px] text-[14px] font-[400] text-[#2f2f2f]">
+              Могу ещё помочь со статистической обработкой
+            </p>
+            <h3 class="pt-[27px] text-[15px] font-[500] text-[#505050]">
+              Вознаграждение
+            </h3>
+            <div
+              class="flex items-center justify-between gap-1 mt-[10px] max-[430px]:hidden"
+            >
+              <button
+                class="border border-spacing-2 py-[6px] px-[9px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500]"
+              >
+                Процитировать других
+              </button>
+              <button
+                class="border border-spacing-2 py-[6px] px-[9px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500]"
+              >
+                Процитировать других
+              </button>
+              <button
+                class="border border-spacing-2 py-[5px] px-[8px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500]"
+              >
+                +1
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-between mt-[60px] gap-[10px] max-[401px]:flex-col max-[401px]:w-full"
+            >
+              <button
+                class="px-[12px] py-[9px] bg-[#f3f3f3] rounded-[20px] flex items-center gap-2 text-[14px] font-[400] text-[#2f2f2f]"
+              >
+                <img src="./svg/community-icon.svg" alt="icon" />
+                первый длинный ключ
+              </button>
+              <button
+                class="px-[12px] py-[9px] bg-[#f3f3f3] rounded-[20px] flex items-center gap-2 text-[14px] font-[400] text-[#2f2f2f]"
+              >
+                <img src="./svg/community-icon.svg" alt="icon" />
+                второй ключ
+              </button>
+
+              <button
+                class="py-[6px] px-[8px] bg-[#f3f3f3] rounded-[20px] text-[#2f2f2f]] text-[14px] font-[400] max-[400px]:w-[150px]"
+              >
+                +1
+              </button>
+            </div>
+            <hr class="my-[20px] text-[#cadcf8]" />
+
+            <div class="flex items-center justify-between max-[360px]:w-full">
+              <div class="flex gap-2 items-center max-[360px]:flex-col">
+                <img
+                  class="w-[85px] h-[80px] rounded-full"
+                  src="./svg/Артём Белоусов.svg"
+                  alt=""
+                />
+                <div class="max-[360px]:text-center">
+                  <h2 class="text-[16px] text-[#2f2f2f] font-[700]">
+                    Артём Белоусов
+                  </h2>
+                  <p class="text-[14px] font-[400] text-[#2f2f2f]">
+                    учёный (кандидат наук)
+                  </p>
+                  <p class="text-[14px] font-[400] text-[#2f2f2f]">
+                    Санкт-Петербургский горный университет
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center gap-1 max-[1230px]:hidden">
+                <img src="./svg/ star.svg" alt="star" />
+                <h3 class="text-[20px] font-[500] text-[#3a85f4]">4,4</h3>
+              </div>
+            </div>
+            <hr class="my-[20px] text-[#cadcf8]" />
+
+            <div class="flex items-center justify-between max-[397px]:w-full">
+              <button
+                class="py-[12px] px-[30px] bg-[#3a85f4] rounded-[20px] font-[700] text-[18px] text-[#fff] max-[353px]:m-auto max-[353px]:text-[16px]"
+              >
+                Предложить <span class="max-[324px]:hidden"> сотрудничество</span>
+              </button>
+              <button
+                class="border border-solid border-[#3A85F4] px-[15px] py-[10px] rounded-full max-[397px]:hidden"
+              >
+                <i class="fa-solid fa-chevron-right text-[#3A85F4]"></i>
+              </button>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div
+            class="community-item px-[12px] pb-[25px] rounded-[10px] pt-[14px] max-[330px]:text-center"
+          >
+            <div
+              class="flex gap-[20px] items-center font-bold text-[11px] max-[330px]:flex-col"
+            >
+              <h2
+                class="text-[#bc9300] bg-[#fdffe7] px-[15px] py-2 rounded-[75px]"
+              >
+                Цитировать других
+              </h2>
+              <h2
+                class="text-[#00a880] bg-[#ebfffa] px-[30px] py-2 rounded-[75px]"
+              >
+                Neuro/Psycho
+              </h2>
+            </div>
+            <h1 class="pt-[27px] text-[16px] font-[600] text-[#2f2f2f]">
+              Вопросы проектирования трансатлантического межнационального
+              продуктопровода в условиях нарастающей коронавирусной пандемии
+            </h1>
+            <h3 class="pt-[27px] text-[15px] font-[500] text-[#505050]">
+              Комментарий
+            </h3>
+            <p class="pt-[10px] text-[14px] font-[400] text-[#2f2f2f]">
+              Могу ещё помочь со статистической обработкой
+            </p>
+            <h3 class="pt-[27px] text-[15px] font-[500] text-[#505050]">
+              Вознаграждение
+            </h3>
+            <div
+              class="flex items-center justify-between gap-1 mt-[10px] max-[430px]:hidden"
+            >
+              <button
+                class="border border-spacing-2 py-[6px] px-[9px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500]"
+              >
+                Процитировать других
+              </button>
+              <button
+                class="border border-spacing-2 py-[6px] px-[9px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500]"
+              >
+                Процитировать других
+              </button>
+              <button
+                class="border border-spacing-2 py-[5px] px-[8px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500]"
+              >
+                +1
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-between mt-[60px] gap-[10px] max-[401px]:flex-col max-[401px]:w-full"
+            >
+              <button
+                class="px-[12px] py-[9px] bg-[#f3f3f3] rounded-[20px] flex items-center gap-2 text-[14px] font-[400] text-[#2f2f2f]"
+              >
+                <img src="./svg/community-icon.svg" alt="icon" />
+                первый длинный ключ
+              </button>
+              <button
+                class="px-[12px] py-[9px] bg-[#f3f3f3] rounded-[20px] flex items-center gap-2 text-[14px] font-[400] text-[#2f2f2f]"
+              >
+                <img src="./svg/community-icon.svg" alt="icon" />
+                второй ключ
+              </button>
+
+              <button
+                class="py-[6px] px-[8px] bg-[#f3f3f3] rounded-[20px] text-[#2f2f2f]] text-[14px] font-[400] max-[400px]:w-[150px]"
+              >
+                +1
+              </button>
+            </div>
+            <hr class="my-[20px] text-[#cadcf8]" />
+
+            <div class="flex items-center justify-between max-[360px]:w-full">
+              <div class="flex gap-2 items-center max-[360px]:flex-col">
+                <img
+                  class="w-[85px] h-[80px] rounded-full"
+                  src="./svg/Артём Белоусов.svg"
+                  alt=""
+                />
+                <div class="max-[360px]:text-center">
+                  <h2 class="text-[16px] text-[#2f2f2f] font-[700]">
+                    Артём Белоусов
+                  </h2>
+                  <p class="text-[14px] font-[400] text-[#2f2f2f]">
+                    учёный (кандидат наук)
+                  </p>
+                  <p class="text-[14px] font-[400] text-[#2f2f2f]">
+                    Санкт-Петербургский горный университет
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center gap-1 max-[1230px]:hidden">
+                <img src="./svg/ star.svg" alt="star" />
+                <h3 class="text-[20px] font-[500] text-[#3a85f4]">4,4</h3>
+              </div>
+            </div>
+            <hr class="my-[20px] text-[#cadcf8]" />
+
+            <div class="flex items-center justify-between max-[397px]:w-full">
+              <button
+                class="py-[12px] px-[30px] bg-[#3a85f4] rounded-[20px] font-[700] text-[18px] text-[#fff] max-[353px]:m-auto max-[353px]:text-[16px]"
+              >
+                Предложить <span class="max-[324px]:hidden"> сотрудничество</span>
+              </button>
+              <button
+                class="border border-solid border-[#3A85F4] px-[15px] py-[10px] rounded-full max-[397px]:hidden"
+              >
+                <i class="fa-solid fa-chevron-right text-[#3A85F4]"></i>
+              </button>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div
+            class="community-item px-[12px] pb-[25px] rounded-[10px] pt-[14px] max-[330px]:text-center"
+          >
+            <div
+              class="flex gap-[20px] items-center font-bold text-[11px] max-[330px]:flex-col"
+            >
+              <h2
+                class="text-[#bc9300] bg-[#fdffe7] px-[15px] py-2 rounded-[75px]"
+              >
+                Цитировать других
+              </h2>
+              <h2
+                class="text-[#00a880] bg-[#ebfffa] px-[30px] py-2 rounded-[75px]"
+              >
+                Neuro/Psycho
+              </h2>
+            </div>
+            <h1 class="pt-[27px] text-[16px] font-[600] text-[#2f2f2f]">
+              Вопросы проектирования трансатлантического межнационального
+              продуктопровода в условиях нарастающей коронавирусной пандемии
+            </h1>
+            <h3 class="pt-[27px] text-[15px] font-[500] text-[#505050]">
+              Комментарий
+            </h3>
+            <p class="pt-[10px] text-[14px] font-[400] text-[#2f2f2f]">
+              Могу ещё помочь со статистической обработкой
+            </p>
+            <h3 class="pt-[27px] text-[15px] font-[500] text-[#505050]">
+              Вознаграждение
+            </h3>
+            <div
+              class="flex items-center justify-between gap-1 mt-[10px] max-[430px]:hidden"
+            >
+              <button
+                class="border border-spacing-2 py-[6px] px-[9px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500]"
+              >
+                Процитировать других
+              </button>
+              <button
+                class="border border-spacing-2 py-[6px] px-[9px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500]"
+              >
+                Процитировать других
+              </button>
+              <button
+                class="border border-spacing-2 py-[5px] px-[8px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500]"
+              >
+                +1
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-between mt-[60px] gap-[10px] max-[401px]:flex-col max-[401px]:w-full"
+            >
+              <button
+                class="px-[12px] py-[9px] bg-[#f3f3f3] rounded-[20px] flex items-center gap-2 text-[14px] font-[400] text-[#2f2f2f]"
+              >
+                <img src="./svg/community-icon.svg" alt="icon" />
+                первый длинный ключ
+              </button>
+              <button
+                class="px-[12px] py-[9px] bg-[#f3f3f3] rounded-[20px] flex items-center gap-2 text-[14px] font-[400] text-[#2f2f2f]"
+              >
+                <img src="./svg/community-icon.svg" alt="icon" />
+                второй ключ
+              </button>
+
+              <button
+                class="py-[6px] px-[8px] bg-[#f3f3f3] rounded-[20px] text-[#2f2f2f]] text-[14px] font-[400] max-[400px]:w-[150px]"
+              >
+                +1
+              </button>
+            </div>
+            <hr class="my-[20px] text-[#cadcf8]" />
+
+            <div class="flex items-center justify-between max-[360px]:w-full">
+              <div class="flex gap-2 items-center max-[360px]:flex-col">
+                <img
+                  class="w-[85px] h-[80px] rounded-full"
+                  src="./svg/Артём Белоусов.svg"
+                  alt=""
+                />
+                <div class="max-[360px]:text-center">
+                  <h2 class="text-[16px] text-[#2f2f2f] font-[700]">
+                    Артём Белоусов
+                  </h2>
+                  <p class="text-[14px] font-[400] text-[#2f2f2f]">
+                    учёный (кандидат наук)
+                  </p>
+                  <p class="text-[14px] font-[400] text-[#2f2f2f]">
+                    Санкт-Петербургский горный университет
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center gap-1 max-[1230px]:hidden">
+                <img src="./svg/ star.svg" alt="star" />
+                <h3 class="text-[20px] font-[500] text-[#3a85f4]">4,4</h3>
+              </div>
+            </div>
+            <hr class="my-[20px] text-[#cadcf8]" />
+
+            <div class="flex items-center justify-between max-[397px]:w-full">
+              <button
+                class="py-[12px] px-[30px] bg-[#3a85f4] rounded-[20px] font-[700] text-[18px] text-[#fff] max-[353px]:m-auto max-[353px]:text-[16px]"
+              >
+                Предложить <span class="max-[324px]:hidden"> сотрудничество</span>
+              </button>
+              <button
+                class="border border-solid border-[#3A85F4] px-[15px] py-[10px] rounded-full max-[397px]:hidden"
+              >
+                <i class="fa-solid fa-chevron-right text-[#3A85F4]"></i>
+              </button>
+            </div>
+          </div>
+          <!-- 6 -->
+          <div
+            class="community-item px-[12px] pb-[25px] rounded-[10px] pt-[14px] max-[330px]:text-center"
+          >
+            <div
+              class="flex gap-[20px] items-center font-bold text-[11px] max-[330px]:flex-col"
+            >
+              <h2
+                class="text-[#bc9300] bg-[#fdffe7] px-[15px] py-2 rounded-[75px]"
+              >
+                Цитировать других
+              </h2>
+              <h2
+                class="text-[#00a880] bg-[#ebfffa] px-[30px] py-2 rounded-[75px]"
+              >
+                Neuro/Psycho
+              </h2>
+            </div>
+            <h1 class="pt-[27px] text-[16px] font-[600] text-[#2f2f2f]">
+              Вопросы проектирования трансатлантического межнационального
+              продуктопровода в условиях нарастающей коронавирусной пандемии
+            </h1>
+            <h3 class="pt-[27px] text-[15px] font-[500] text-[#505050]">
+              Комментарий
+            </h3>
+            <p class="pt-[10px] text-[14px] font-[400] text-[#2f2f2f]">
+              Могу ещё помочь со статистической обработкой
+            </p>
+            <h3 class="pt-[27px] text-[15px] font-[500] text-[#505050]">
+              Вознаграждение
+            </h3>
+            <div
+              class="flex items-center justify-between gap-1 mt-[10px] max-[430px]:hidden"
+            >
+              <button
+                class="border border-spacing-2 py-[6px] px-[9px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500]"
+              >
+                Процитировать других
+              </button>
+              <button
+                class="border border-spacing-2 py-[6px] px-[9px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500]"
+              >
+                Процитировать других
+              </button>
+              <button
+                class="border border-spacing-2 py-[5px] px-[8px] border-[#3a85f4] rounded-[20px] text-[#3a85f4] text-[14px] font-[500]"
+              >
+                +1
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-between mt-[60px] gap-[10px] max-[401px]:flex-col max-[401px]:w-full"
+            >
+              <button
+                class="px-[12px] py-[9px] bg-[#f3f3f3] rounded-[20px] flex items-center gap-2 text-[14px] font-[400] text-[#2f2f2f]"
+              >
+                <img src="./svg/community-icon.svg" alt="icon" />
+                первый длинный ключ
+              </button>
+              <button
+                class="px-[12px] py-[9px] bg-[#f3f3f3] rounded-[20px] flex items-center gap-2 text-[14px] font-[400] text-[#2f2f2f]"
+              >
+                <img src="./svg/community-icon.svg" alt="icon" />
+                второй ключ
+              </button>
+
+              <button
+                class="py-[6px] px-[8px] bg-[#f3f3f3] rounded-[20px] text-[#2f2f2f]] text-[14px] font-[400] max-[400px]:w-[150px]"
+              >
+                +1
+              </button>
+            </div>
+            <hr class="my-[20px] text-[#cadcf8]" />
+
+            <div class="flex items-center justify-between max-[360px]:w-full">
+              <div class="flex gap-2 items-center max-[360px]:flex-col">
+                <img
+                  class="w-[85px] h-[80px] rounded-full"
+                  src="./svg/Артём Белоусов.svg"
+                  alt=""
+                />
+                <div class="max-[360px]:text-center">
+                  <h2 class="text-[16px] text-[#2f2f2f] font-[700]">
+                    Артём Белоусов
+                  </h2>
+                  <p class="text-[14px] font-[400] text-[#2f2f2f]">
+                    учёный (кандидат наук)
+                  </p>
+                  <p class="text-[14px] font-[400] text-[#2f2f2f]">
+                    Санкт-Петербургский горный университет
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center gap-1 max-[1230px]:hidden">
+                <img src="./svg/ star.svg" alt="star" />
+                <h3 class="text-[20px] font-[500] text-[#3a85f4]">4,4</h3>
+              </div>
+            </div>
+            <hr class="my-[20px] text-[#cadcf8]" />
+
+            <div class="flex items-center justify-between max-[397px]:w-full">
+              <button
+                class="py-[12px] px-[30px] bg-[#3a85f4] rounded-[20px] font-[700] text-[18px] text-[#fff] max-[353px]:m-auto max-[353px]:text-[16px]"
+              >
+                Предложить <span class="max-[324px]:hidden"> сотрудничество</span>
+              </button>
+              <button
+                class="border border-solid border-[#3A85F4] px-[15px] py-[10px] rounded-full max-[397px]:hidden"
+              >
+                <i class="fa-solid fa-chevron-right text-[#3A85F4]"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="mt-[47px] w-[264px] h-[50px] border border-solid border-[#3a85f4] rounded-[20px] text-[18px] font-[700] text-[#3a85f4]"
+        >
+          Смотреть все
+        </button>
+      </div>
+    </section>
+
+    <!-- community end -->
+
+    <footer class="bg-[#262628] pt-[43px] pb-[23px] mb-[30px]">
+      <div
+        class="container1 flex justify-between max-[1148px]:flex-col max-[1148px]:gap-5 max-[1010px]:items-center"
+      >
+        <div
+          class="flex gap-[67px] max-[650px]:grid max-[650px]:grid-cols-2 max-[650px]:text-center"
+        >
+          <div class="max-[1010px]:hidden">
+            <h2>
+              <a class="text-[#fff] text-[16px] font-[400]" href="#">
+                Authortie
+              </a>
+            </h2>
+            <a href="#" class="text-[#888]"
+              ><i class="fa-regular fa-copyright"></i>Все права защищены</a
+            >
+          </div>
+
+          <h2>
+            <a class="text-[#fff] text-[16px] font-[400]" href="#"
+              >Политика конфиденциальности</a
+            >
+          </h2>
+          <h2>
+            <a class="text-[#fff] text-[16px] font-[400]" href="#">Аналитика</a>
+          </h2>
+          <h2>
+            <a class="text-[#fff] text-[16px] font-[400]" href=""
+              >Сообщество</a
+            >
+          </h2>
+          <h2>
+            <a class="text-[#fff] text-[16px] font-[400]" href="#"
+              >организаций</a
+            >
+          </h2>
+        </div>
+        <div class="hidden max-[1010px]:block max-[1010px]:text-center">
+          <h2>
+            <a class="text-[#fff] text-[16px] font-[400]" href="#">
+              Authortie
+            </a>
+          </h2>
+          <a href="#" class="text-[#888]"
+            ><i class="fa-regular fa-copyright"></i>Все права защищены</a
+          >
+        </div>
+        <div class="flex items-center gap-[28px]">
+          <a href="#">
+            <img class="w-[24px]" src="./svg/fecobook.svg" alt="f"
+          /></a>
+          <a href="#"> <img src="./svg/insta.svg" alt="i" /></a>
+          <a href="#"><img src="./svg/telegram.svg" alt="t" /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

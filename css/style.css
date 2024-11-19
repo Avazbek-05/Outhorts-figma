@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container1 {
+  width: 95%;
+  margin: 0 auto;
+}
+@media (min-width: 1400px) {
+  .container1 {
+    width: 1350px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1000px) {
+  .nav-ul {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 3px 17px 0 rgba(43, 123, 211, 0.06);
+    background: #fefeff;;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    row-gap: 20px;
+  }
+  .fa-xmark {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  #check:checked ~ .nav-ul {
+    left: 0;
+  }
+}
+.wrapper {
+  background: linear-gradient(110deg, #fff 0%, #cce7ff 100%);
+}
+.works-img {
+  box-shadow: 0 8px 23px 0 rgba(44, 128, 255, 0.2);
+  padding: 35px 28px 33px 33px;
+  border-radius: 30px;
+}
+@media (max-width: 935px) {
+  .fa-arrow-right-long {
+    display: none;
+  }
+}
+.community-item {
+  box-shadow: 0 0px 17px rgba(19, 20, 20, 0.06);
+  background: #fbfbfe;
+}
+.forr {
+  background-color: #fff;
+  box-shadow: 0 0 23px 0 rgba(43, 123, 211, 0.1);
+}
+textarea {
+  background-color: #fff;
+  box-shadow: 0 3px 17px 0 rgba(43, 123, 211, 0.06);
+}
